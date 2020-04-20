@@ -3,6 +3,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.android.camera2 \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.enable_suspend=true
+
 #DPI
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=440
