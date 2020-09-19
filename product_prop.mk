@@ -15,6 +15,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.disable_backpressure=1 \
 	debug.sf.enable_hwc_vds=1
+	
+# Graphics
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.hwui.renderer=skiavk
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
