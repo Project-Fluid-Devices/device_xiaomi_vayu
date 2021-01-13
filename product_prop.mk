@@ -22,7 +22,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
 # Media
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PRODUCT_PROPERTIES += \
 	ro.config.media_vol_default=10 \
 	ro.config.media_vol_steps=7 \
 	ro.config.vc_call_vol_steps=5
@@ -34,3 +34,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.dbg.wfc_avail_ovr=1 \
 	persist.vendor.radio.enable_temp_dds=true \
 	persist.vendor.radio.report_codec=1
+
+# Telephony
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.ims.disableADBLogs=1 \
+    persist.vendor.ims.disableDebugLogs=1 \
+    persist.vendor.ims.disableIMSLogs=1 \
+    persist.vendor.ims.disableQXDMLogs=1
+
