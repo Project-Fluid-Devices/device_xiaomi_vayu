@@ -114,3 +114,15 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libdisplayconfig.qti \
+    libnl \
+    libqdMetaData \
+    libavservices_minijail \
+    libavservices_minijail_32 \
+    vendor.display.config@2.0
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
