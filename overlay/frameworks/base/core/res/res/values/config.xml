@@ -192,4 +192,9 @@
         <item>0,1</item>
         <item>7,1</item>
     </string-array>
+
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+        in hardware. -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    
 </resources>
