@@ -107,6 +107,9 @@ PRODUCT_PACKAGES += \
 # Permissions
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service.vayu
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
