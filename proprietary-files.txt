@@ -53,4 +53,4 @@ system_ext/framework/embmslibrary.jar
 system_ext/framework/qcrilhook.jar
 
 # Telephony
-system_ext/framework/qti-telephony-common.jar
+#system_ext/framework/qti-telephony-common.jar
