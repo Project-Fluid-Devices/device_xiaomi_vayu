@@ -81,6 +81,7 @@ void vendor_load_properties() {
     std::string device;
     std::string fingerprint;
     std::string mod_device;
+    std::string description;
 
     if (region == "GLOBAL") {
         model = "M2102J20SG";
@@ -94,6 +95,9 @@ void vendor_load_properties() {
         mod_device = "bhima_global";
         }
 
+    fingerprint = "google/redfin/redfin:S/SPP3.210325.010/7282474:user/release-keys";
+    description = "redfin-user S SPP3.210325.010 7282474 release-keys";
+    
     set_ro_build_prop("fingerprint", fingerprint);
     set_ro_product_prop("device", device);
     set_ro_product_prop("model", model);
