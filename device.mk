@@ -63,6 +63,11 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0 \
+    libhardware
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
