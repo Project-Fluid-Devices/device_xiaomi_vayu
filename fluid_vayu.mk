@@ -18,3 +18,13 @@ PRODUCT_MODEL := POCO X3 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Fluid flags
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.fluid.maintainer=Foxtrot47 \
+	ro.fluid.cpu=SDM860
+
+# GApps
+TARGET_INCLUDE_GAPPS := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_GOOGLE_RECORDER := true
