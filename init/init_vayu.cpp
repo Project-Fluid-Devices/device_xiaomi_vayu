@@ -95,8 +95,8 @@ void vendor_load_properties() {
         mod_device = "bhima_global";
         }
 
-    fingerprint = "google/redfin/redfin:S/SPP3.210325.010/7282474:user/release-keys";
-    description = "redfin-user S SPP3.210325.010 7282474 release-keys";
+    fingerprint = "google/coral/coral:11/RQ2A.210505.002/7246365:user/release-keys";
+    description = "coral-user 11 RQ2A.210505.002 7246365 release-keys";
     
     set_ro_build_prop("fingerprint", fingerprint);
     set_ro_product_prop("device", device);
