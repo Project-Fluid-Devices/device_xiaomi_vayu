@@ -1,0 +1,21 @@
+[
+    {
+        "remote":       "fluid-devices",
+        "repository":   "android_kernel_xiaomi_vayu ",
+        "target_path":  "kernel/xiaomi/vayu",
+        "branch":       "11"
+    },
+    {
+        "remote":       "fluid-devices",
+        "repository":   "vendor_xiaomi_vayu",
+        "target_path":  "vendor/xiaomi/vayu",
+        "branch":       "fluid-r"
+    },
+    {
+        "remote":       "github",
+        "repository":   "kdrag0n/proton-clang",
+        "clone-depth":  "1",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
+        "branch":       "master"
+    }
+]
