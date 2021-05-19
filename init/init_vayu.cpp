@@ -127,6 +127,7 @@ void vendor_load_properties() {
         property_override("ro.product.mod_device", mod_device.c_str());
     }
     property_override("ro.product.system.model","POCO X3 Pro");
-
+    property_override("ro.boot.verifiedbootstate", "green");
+    
     load_dalvik_properties();
 }
