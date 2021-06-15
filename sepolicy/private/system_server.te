@@ -3,3 +3,6 @@ allow system_server sysfs_kgsl:file r_file_perms;
 # Allow system_server to set vendor_persist_camera_prop
 get_prop(system_server, vendor_camera_prop)
 get_prop(system_server, vendor_persist_camera_prop)
+
+# proc_last_kmsg
+allow system_server proc_last_kmsg:file r_file_perms;

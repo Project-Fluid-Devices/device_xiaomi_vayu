@@ -7,6 +7,9 @@ type bt_firmware_file, file_type;
 type firmware_file, file_type;
 type persist_file, file_type;
 
+# last kmesg
+type proc_last_kmsg, fs_type, proc_type;
+
 # socket
 type pps_socket, file_type;
 
