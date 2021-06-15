@@ -1,15 +1,15 @@
 [
     {
-        "remote":       "fluid-devices",
-        "repository":   "android_kernel_xiaomi_vayu ",
+        "remote":       "github",
+        "repository":   "Jebaitedneko/android_kernel_xiaomi_vayu",
         "target_path":  "kernel/xiaomi/vayu",
-        "branch":       "11"
+        "branch":       "r1"
     },
     {
         "remote":       "fluid-devices",
         "repository":   "vendor_xiaomi_vayu",
         "target_path":  "vendor/xiaomi/vayu",
-        "branch":       "fluid-r"
+        "branch":       "fluid-11"
     },
     {
         "remote":       "github",
@@ -19,8 +19,8 @@
         "branch":       "master"
     },
     {
-        "remote":       "LineageOS",
-        "repository":   "android_external_exfatprogs",
+        "remote":       "github",
+        "repository":   "LineageOS/android_external_exfatprogs",
         "clone-depth":  "1",
         "target_path":  "external/exfatprogs",
         "branch":       "lineage-18.1"
