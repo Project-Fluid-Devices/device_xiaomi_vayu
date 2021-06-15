@@ -21,3 +21,4 @@ type vendor_sysfs_battery_supply, sysfs_type, fs_type;
 type vendor_sysfs_usb_supply, sysfs_type, fs_type;
 type vendor_sysfs_usbpd_device, sysfs_type, fs_type;
 type vendor_sysfs_fps_attr, sysfs_type, fs_type;
+
