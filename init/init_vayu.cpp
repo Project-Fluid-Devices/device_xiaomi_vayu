@@ -117,8 +117,8 @@ void vendor_load_properties() {
         mod_device = "bhima_global";
         }
 
-    fingerprint = "google/coral/coral:11/RQ2A.210505.002/7246365:user/release-keys";
-    description = "coral-user 11 RQ2A.210505.002 7246365 release-keys";
+    fingerprint = "google/coral/coral:S/SPB2.210513.007/7398525:user/release-keys";
+    description = "coral-user S SPB2.210513.007 7398525 release-keys";
     
     set_ro_build_prop("fingerprint", fingerprint);
     set_ro_product_prop("device", device);
