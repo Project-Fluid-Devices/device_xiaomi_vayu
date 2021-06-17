@@ -71,6 +71,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0 \
     libhardware
 
+# HotwordEnrollement
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
