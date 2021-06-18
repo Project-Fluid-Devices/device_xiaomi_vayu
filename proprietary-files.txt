@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from bhima-qssi-user-11-RKQ1.200826.002-V12.0.4.0.RJUMIXM-release-keys
+# All unpinned blobs are extracted from RKQ1.200826.002/V12.5.1.0.RJUEUXM:user/release-keys
 
 # Camera
 system/lib/libcameraservice.so
