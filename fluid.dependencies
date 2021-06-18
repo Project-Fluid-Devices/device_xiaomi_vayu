@@ -17,12 +17,5 @@
         "clone-depth":  "1",
         "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
         "branch":       "master"
-    },
-    {
-        "remote":       "github",
-        "repository":   "LineageOS/android_external_exfatprogs",
-        "clone-depth":  "1",
-        "target_path":  "external/exfatprogs",
-        "branch":       "lineage-18.1"
     }
 ]
