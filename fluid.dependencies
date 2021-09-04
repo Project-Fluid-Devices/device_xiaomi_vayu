@@ -1,6 +1,27 @@
 [
-  {
-    "repository": "android_device_xiaomi_sm8150-common",
-    "target_path": "device/xiaomi/sm8150-common"
-  }
+    {
+        "remote":       "fluid-devices"
+        "repository":   "android_device_xiaomi_sm8150-common",
+        "target_path":  "device/xiaomi/sm8150-common"
+    },
+    {
+        "remote":       "github"
+        "repository":   "Jebaitedneko/android_kernel_xiaomi_vayu",
+        "target_path":  "kernel/xiaomi/sm8150",
+        "branch":       "r2",
+        "clone-depth":  "1",
+    },
+    {
+        "remote":       "github",
+        "repository":   "kdrag0n/proton-clang",
+        "clone-depth":  "1",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
+        "branch":       "master"
+    },
+    {
+        "remote":       "gitlab"  
+        "repository":   "Foxtrot47/vendor_xiaomi_vayu",
+        "target_path":  "vendor/xiaomi/vayu",
+        "branch":       "fluid-11"
+    }
 ]
